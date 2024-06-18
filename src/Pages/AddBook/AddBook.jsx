@@ -1,16 +1,20 @@
 
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
+import useAuth from "../../hooks/useAuth";
 
 const AddBook = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
+    const {user }= useAuth();
     
 
     const onSubmit = data =>{
         
         console.log(data)
+        console.log(user.email)
 
        fetch('http://localhost:5000/books',{
+        credentials:'include',
         method:'POST',
         headers:{
             'content-type':'application/json'
@@ -64,7 +68,7 @@ const AddBook = () => {
                         <span className="label-text">Category</span>
                     </div>
                     <select className="select select-bordered w-full" {...register('category_name')} >
-                        <option disabled selected value="">Pick one</option>
+                        <option disabled value="" defaultValue="">Pick one</option>
                             <option value="Novel">Novel</option>
                             <option value="Thriller">Thriller</option>
                             <option value="History">History</option>

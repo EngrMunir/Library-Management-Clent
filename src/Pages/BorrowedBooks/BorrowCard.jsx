@@ -18,7 +18,7 @@ const BorrowCard = ({book, onReturn }) => {
             console.log('increase quantity response ',data)
             if(data.modifiedCount > 0){
                 console.log('id for delete ', _id)
-                fetch(`http://localhost:5000/borrowedBooks/${_id}`,{
+                fetch(`http://localhost:5000/borrowedBooks/${bookId}`,{
                     method:'DELETE',
                 })
                 .then(res => res.json())

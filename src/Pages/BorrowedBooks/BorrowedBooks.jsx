@@ -5,6 +5,7 @@ import BorrowCard from "./BorrowCard";
 
 const BorrowedBooks = () => {
     const { user } = useContext(AuthContext)
+    console.log('borrowed books',user)
     const [books, setBooks]=useState([]);
 
 
@@ -26,7 +27,7 @@ const BorrowedBooks = () => {
             <h2 className="text-3xl text-center">My Borrowed List: {books?.length}</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {
-                    books.map(book => <BorrowCard key={book._id} book={book}  onReturn={() => handleReturnBook(book._id)} ></BorrowCard>)
+                   books &&  books.map(book => <BorrowCard key={book._id} book={book}  onReturn={() => handleReturnBook(book._id)} ></BorrowCard>)
                 }
             </div>
         </div>

@@ -9,9 +9,9 @@ import AllBook from "../Pages/AllBook/AllBook";
 import Update from "../Pages/Update/Update";
 import SameCategory from "../Pages/SameCategory/SameCategory";
 import Details from "../Pages/Details/Details";
-import BorrowedBooks from "../Pages/BorowedBooks/BorrowedBooks";
 import PrivateRoute from "../Pages/PrivateRoute/PrivateRoute";
 import Dashboard from "../Layout/Dashboard";
+import BorrowedBooks from "../Pages/BorrowedBooks/BorrowedBooks";
 
   export const router = createBrowserRouter([
     {

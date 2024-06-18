@@ -122,7 +122,6 @@ const Update = () => {
             <input className="btn btn-secondary w-1/2 mb-2" type="submit" value="Update" />
             </div>
         </form>
-
     </div>
     );
 };
