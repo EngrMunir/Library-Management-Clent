@@ -1,14 +1,14 @@
-## Overview:
+# Book Wave
+### Overview:
 The website stands out for library management. This project is for the institutions like school, college and university to provide book collect opportunities for their students.
-## Features:
+### Features:
 •	Dashboard for student and librarian with user friendly UI
 •	API is much secure through JWT and axios interceptor.
 •	User can easily login through social media like Github, Google
-## Technologies: 
+### Technologies: 
 React JS, Node JS, MongoDB, Firebase, Vercel.
-https://library-management-clien-5c580.web.app
 
-## Getting Started to clone project
+### Getting Started to clone project
 
 ### 1. Clone the Repository
 Clone the project repository to your local machine using the following command:
