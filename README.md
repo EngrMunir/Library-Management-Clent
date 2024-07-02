@@ -1,8 +1,21 @@
-# React + Vite
+## Overview:
+The website stands out for library management. This project is for the institutions like school, college and university to provide book collect opportunities for their students.
+## Features:
+•	Dashboard for student and librarian with user friendly UI
+•	API is much secure through JWT and axios interceptor.
+•	User can easily login through social media like Github, Google
+## Technologies: React JS, Node JS, MongoDB, Firebase, Vercel.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# clone project
+## Getting Started
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Clone the Repository
+Clone the project repository to your local machine using the following command:
+```sh
+git clone
+### 2. Move to the project repository
+cd library-management-client
+### 3. Install the required project dependencies using npm:
+npm install
+### 4. Start the development server:
+npm run dev
