@@ -6,6 +6,8 @@ The website stands out for library management. This project is for the instituti
 •	User can easily login through social media like Github, Google
 ## Technologies: React JS, Node JS, MongoDB, Firebase, Vercel.
 
+## Live: https://library-management-clien-5c580.web.app
+
 ## Getting Started to clone project
 
 ### 1. Clone the Repository
