@@ -6,13 +6,12 @@ The website stands out for library management. This project is for the instituti
 •	User can easily login through social media like Github, Google
 ## Technologies: React JS, Node JS, MongoDB, Firebase, Vercel.
 
-# clone project
-## Getting Started
+## Getting Started to clone project
 
 ### 1. Clone the Repository
 Clone the project repository to your local machine using the following command:
 ```sh
-git clone
+git clone https://github.com/EngrMunir/Library-Management-Clent.git
 ### 2. Move to the project repository
 cd library-management-client
 ### 3. Install the required project dependencies using npm:
